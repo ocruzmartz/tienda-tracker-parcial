@@ -4,12 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ui.tienda.home.HomeFragment">
 
-    <data>
-
-        <variable
-            name="viewmodel"
-            type="com.ocruzmartz.tiendatracker.ui.tienda.viewmodel.TiendaViewModel" />
-    </data>
     
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

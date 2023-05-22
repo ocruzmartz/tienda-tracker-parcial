@@ -10,8 +10,8 @@ class TiendaRecyclerViewHolder(private val binding: CardItemBinding) :
         binding.idNameStore.text = tienda.name
         binding.idAddressStore.text = tienda.address
 
-//        binding.idCardView.setOnClickListener {
-//            clickListener(tienda)
-//        }
+        binding.idCardView.setOnClickListener {
+            clickListener(tienda)
+        }
     }
 }
