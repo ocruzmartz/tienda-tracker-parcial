@@ -52,9 +52,9 @@ class TiendaViewModel(private val repository: TiendaRepository) : ViewModel() {
         address.value = ""
     }
 
-    fun setSelectedTienda(movie: TiendaModel){
-        name.value = movie.name
-        address.value = movie.address
+    fun setSelectedTienda(tienda: TiendaModel){
+        name.value = tienda.name
+        address.value = tienda.address
     }
 
 
